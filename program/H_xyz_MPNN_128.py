@@ -235,7 +235,7 @@ print('EM',Energyt)
 # error_a = nn.MSELoss()(Energyt*psi_gt, psi_pt)
 # print('loss',error_a)
 # x = sample_x(2000)
-xb = sample_x_b(20)
+xb = sample_x_b(20)#20*20*20=8000samples
 # print('bn',xb)
 # X = torch.arange(-5.05, 5, 0.4)
 #Y = torch.arange(-5.05, 5, 0.1)
