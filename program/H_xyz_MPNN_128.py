@@ -342,16 +342,16 @@ R6 = R2**2
 
 
 # plt.figure(num=1, figsize=(12, 10), dpi=100)
-# ax3.plot_surface(X1,Y1,R1.detach().numpy(),rstride = 1,cstride = 1,cmap='YlGnBu')#rainbow，YlGnBu
+ax3.plot_surface(X1,Y1,R1.detach().numpy(),rstride = 1,cstride = 1,cmap='YlGnBu')#rainbow，YlGnBu
 # # ax3.scatter(X1,Y1,R2.detach().numpy())#rainbow，YlGnBu
-# ax3.set_ylabel('y')
-# ax3.set_xlabel('x')
-# ax3.set_zlabel('V')
+ax3.set_ylabel('y')
+ax3.set_xlabel('x')
+ax3.set_zlabel('V')
 # # ax3.grid(False)
 # # ax3.set_xticks([])
 # # ax3.set_yticks([])
 # # ax3.set_zticks([])
 # # plt.axis('off')
 # # plt.subplots_adjust(0, 0, 1, 1)
-# #ax3.contour(X,Y,Z, zdim='z',offset=-2，cmap='rainbow)
-# plt.show()
+ax3.contour(X,Y,Z, zdim='z',offset=-2，cmap='rainbow)
+plt.show()
