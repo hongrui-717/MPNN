@@ -328,7 +328,7 @@ print('V',p2.shape)
 fig = plt.figure()
 #ax3 = plt.axes(projection='3d')
 ax3 = Axes3D(fig)
-#定义三维数据
+
 X1,Y1 = np.meshgrid(X, Y)
 print(X1.shape)
 R1 = p2
@@ -340,7 +340,7 @@ R6 = R2**2
 # R = H_xyz_ones_fun.MetropolisHastings(10201).reshape(101,101)
 
 
-#作图
+
 # plt.figure(num=1, figsize=(12, 10), dpi=100)
 # ax3.plot_surface(X1,Y1,R1.detach().numpy(),rstride = 1,cstride = 1,cmap='YlGnBu')#rainbow，YlGnBu
 # # ax3.scatter(X1,Y1,R2.detach().numpy())#rainbow，YlGnBu
